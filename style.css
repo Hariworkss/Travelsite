@@ -1,0 +1,217 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);;
+    box-shadow: 8px -13px 6px 16px grey;
+    
+}
+.navbutton{
+    margin-left: 80%;
+}
+.navpos1{
+    /*margin-left: 50%;
+    transform: translateX(-80%);*/
+    padding: 2vh 20vw;    
+    
+}
+@media screen {
+    
+}
+.navfont{
+    font-size: 20px;
+}
+.nav-link{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.nav-link:hover{
+    color: white !important; 
+    background-color: black;
+}
+.hero{
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/united-states-america-map-with-flag_23-2148232413.jpg?w=1060&t=st=1673531064~exp=1673531664~hmac=7999832b31d28196f6de8ab3ad16d5f46fd01d7be663094e0f432c395df5db76);
+    background-size: 90%;
+    background-position-y: -7rem;
+    height: 98vh;
+    
+}
+
+.center {
+    
+    position: absolute;
+    top: 34%;
+    left: 18%;
+    transform: translate(0, -50%);
+    padding: 10px;
+  }
+  .headfont{
+    font-size: 3rem;
+  }
+  .abtext{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.sec1 .btn1{
+    height: 55px;
+    width: 138px;
+    background-color: rgb(35, 132, 62);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.2s;
+    margin-left: 7rem;
+}
+.btn1:hover{
+    background-color: black;
+    
+}
+.sec1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.sec1 .btn2{
+    height: 55px;
+    width: 138px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.sec1 .btn2:hover{
+    background-color: white;
+    color: black;
+    border: solid 2px;
+}
+
+.sec1 img{
+    max-width: 80%;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    box-shadow: 2px 5px 16px ;
+}
+.sec1col2{
+    padding-right: 10rem;
+    
+}
+.sec1head{
+    
+    font: 40px;
+}
+.sec1 p{
+    font-size: 30px;
+    margin-left: 7rem;
+}
+.sec2{
+    margin-bottom: 100px;
+}
+.card{
+    overflow: hidden;
+    transition: .5s;
+    
+}
+.card:hover{
+    box-shadow: 0px 7px 15px;
+}
+.centertext{
+    text-align: center;
+}
+.cardsize{
+    width: 30rem;
+    height: 27rem;
+}
+.card img{
+    transition: .5s;
+}
+.card img:hover{
+    transform: scale(1.10);
+}
+.sec3{
+    border-color: rgb(40, 161, 86) green black blue;
+    border-style: solid solid solid solid;
+    border-width: 5px 0px 5px 0px;
+    margin-bottom: 50px;
+    padding: 5px 5px 5px 95px;
+}
+.sec3 h1{
+    margin-right: 15px;
+    font-size: 4rem;
+    font-family:'Times New Roman', Times, serif;
+    color: green;
+}
+.sec3 h3{
+    margin-right: 15px;
+    font-size: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    color: brown;
+}
+.f-bg{
+    background-color: rgb(24, 110, 168);
+    padding: 30px;
+}
+
+@media screen and (min-width: 780px) {
+    .hero {
+        width: 100%;
+        background-image: url(https://img.freepik.com/free-photo/united-states-america-map-with-flag_23-2148232413.jpg?w=1060&t=st=1673531064~exp=1673531664~hmac=7999832b31d28196f6de8ab3ad16d5f46fd01d7be663094e0f432c395df5db76);
+        background-size: 100%;
+        background-position-y: -5rem;
+        height: 60vh;
+        
+    }
+    .headfont {
+        font-size: 3rem;
+        text-shadow: 1px 5px 7px #cdd0d4;
+    }
+    .hero h3{
+        font-size: calc(1.3rem + .6vw);
+        text-shadow: -1px 1px 0px white;
+    }
+  }
+
+  @media screen and (min-width: 1224px) {
+    .hero {
+        width: 100%;
+        background-image: url(https://img.freepik.com/free-photo/united-states-america-map-with-flag_23-2148232413.jpg?w=1060&t=st=1673531064~exp=1673531664~hmac=7999832b31d28196f6de8ab3ad16d5f46fd01d7be663094e0f432c395df5db76);
+        background-size: 100%;
+        background-position-y: -5rem;
+        height: 85vh;
+        
+    }
+    .headfont {
+        font-size: 3rem;
+        text-shadow: 1px 5px 7px #cdd0d4;
+    }
+    .hero h3{
+        font-size: calc(1.3rem + .6vw);
+        text-shadow: -1px 1px 0px white;
+    }
+  }
+
+  @media screen and (max-width: 779px) {
+    .hero {
+        width: 100%;
+        background-image: url(https://img.freepik.com/free-photo/united-states-america-map-with-flag_23-2148232413.jpg?w=1060&t=st=1673531064~exp=1673531664~hmac=7999832b31d28196f6de8ab3ad16d5f46fd01d7be663094e0f432c395df5db76);
+        background-size: 100%;
+        background-position-y: 1px;
+        height: 50vh;
+        
+    }
+    .headfont {
+        font-size: 3rem;
+        text-shadow: 1px 5px 7px #cdd0d4;
+    }
+    .hero h3{
+        font-size: calc(1.3rem + .6vw);
+        text-shadow: -1px 1px 0px white;
+    }
+  }
