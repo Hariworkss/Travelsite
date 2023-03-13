@@ -154,6 +154,9 @@
     font-family:'Times New Roman', Times, serif;
     color: brown;
 }
+.footpad{
+    padding-left: 200px;
+}
 .f-bg{
     background-color: rgb(24, 110, 168);
     padding: 30px;
